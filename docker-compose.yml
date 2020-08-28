@@ -3,7 +3,7 @@ version: '3'
 services:
 
   ldap:
-    image: itasgmbhde/openldap-alpine
+    image: comx3/openldap
     build:
       context: .
     ports:
